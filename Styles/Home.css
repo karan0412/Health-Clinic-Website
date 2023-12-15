@@ -1,0 +1,259 @@
+﻿        .logout
+        {
+            text-align: center;
+        }
+        .logout-btn
+        {
+            
+            text-decoration: none;
+            background-color: transparent;
+            color: black;
+            border: 0;
+            display: inline-block;
+            justify-content: center;
+            font-size: large;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .logout-btn:hover
+        {
+            color: #639CD9;
+            cursor: pointer;
+        }
+
+        h1 {
+            margin: 50px auto 0 auto;
+            font-size: 5.625rem;
+            color: black;
+            line-height: 2;
+            text-align: center;
+            color: black;
+            
+        }
+        .slogan
+        {
+            text-align: center;
+            margin-bottom: 5em;
+            color: black;
+        }
+        #about-us {
+            display: grid;
+            background-color: #639CD9; /*for logo*/
+            padding-top: 5em;
+            padding-bottom: 5em;
+            grid-template-columns: 50% 50%;
+            text-align: left;
+            line-height: 2;
+        }
+        .intro
+        {
+            color: white;
+            width: 90%;
+        }
+        
+        /*Middle container*/
+        #specialities {
+            padding-top: 5em;
+            padding-bottom: 5em;
+            display: grid;
+            grid-template-columns: 25% 45% 30%;
+            background-color: white;
+        }
+
+        .mid-grid {
+            padding-left: 50px;
+            text-align: center;
+
+        }
+
+        .mid-txt {
+            text-align: center;
+            width: 70%;
+            line-height: 2;
+            padding-left: 5em;
+            padding-top: 30px;
+            font-weight: 500;
+        }
+
+        .doc1-img {
+            width: 15em;
+            height: 15em;
+        }
+
+
+        th
+        {
+           padding: 3px 10px;
+           padding-right: 200px;
+           background-color: #5454C5;
+           color: White;
+           margin: 0;
+        }
+
+        .service-list 
+        {
+            font-weight: 600;
+        }
+        table
+        {
+            box-shadow: 1px 1px 20px 0 #D5D5D5;
+        }
+        td
+        {
+            padding: 10px;
+            background-color: white;
+            margin: 0;
+        }
+        td:hover
+        {
+            background-color: #639CD9;
+        }
+
+        .service-link {
+            color: black;
+            text-decoration: none; 
+        }
+        
+        /*Bottom container*/
+        #signup-area
+        {
+            width: 100%;
+            background-color: #5454C5;
+            padding-top: 5em;
+            padding-bottom: 10em;
+            text-align: center;
+            color: White;
+        }
+
+        h2 
+        {
+            padding-top: 1em;
+            text-align: center;
+            padding-bottom: 0.5em;
+            
+        }
+
+      
+        .signup-btn 
+        {
+            padding: 10px 20px;
+            background-color: White;
+            color: Black;
+            text-align: center;
+            border: 0;
+            justify-content: center;
+            font-weight: bolder;
+            text-decoration: none;
+        }
+
+        .signup-btn:hover {
+            background-color: #639CD9;
+        }
+        
+        #map
+        {
+            width: 100%;
+            background-color: white;
+            color: black;
+            text-align: center;
+        }
+        iframe
+        {
+            padding-bottom: 5em;
+            width: 80%
+        }
+
+@media screen and (max-width: 1024px)
+{
+    #specialities {
+            grid-template-columns: 20% 50% 30%;
+        }
+
+    .intro
+        {
+            color: white;
+            font-size: small;
+        }
+        .doc1-img {
+            width: 10em;
+            height: 10em;
+        }
+        table
+        {
+            margin-top: 90px;
+        }
+        th
+        {
+           padding-right: 100px;
+        }
+        .logo
+        {
+            width: 90%;
+            height: 90%;
+        }
+
+
+}       
+@media screen and (max-width: 800px)
+{
+    h1
+    {
+        font-size: 3em;
+    }
+    #about-us
+    {
+        display: block;
+        grid-template-columns: 0;
+    }
+       .doc-img {
+            height: 15em;
+            width: 20em;
+            margin: auto;
+        }
+     #specialities {
+            display: block;
+            grid-template-columns: 0;
+            text-align: center;
+            font-size:12px;
+     }
+     .doc1-img
+     {
+         margin: auto;
+     }
+     .h3
+     {
+         margin: auto;
+     }
+     .mid-grid {
+            padding-left: 0;
+            text-align: center;
+
+        }
+
+        .mid-txt {
+            width: 90%;
+            line-height: 2;
+            padding-left: 0;
+            padding-top: 30px;
+            padding-bottom: 20px;
+            font-weight: 300;
+            margin: auto;
+        }
+       .services {
+       text-align: center;
+         
+        }
+        .service-list
+        {
+            margin: auto;
+        }
+
+       
+  .logout-btn
+  {
+      margin-left: 15px;
+      align-items: center;
+  }
+  
+       
+     
+}

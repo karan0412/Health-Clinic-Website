@@ -1,0 +1,52 @@
+﻿.login-frame
+        {
+            box-shadow: 1px 1px 20px 0 #D5D5D5;
+            margin: 8em auto 8em auto;
+            width: 25rem;
+            height: 23rem;
+            display: grid;
+            grid-template-rows: 80px 80px 80px; 
+            text-align: center;
+            border-radius: 20px;
+        }
+        .row
+        {
+            text-align: center;
+        }
+        .input
+        {
+          padding: 0 40px;
+          height: 40px;
+          font-size: 16px;
+          background: none;
+          border: none;
+          outline: none;
+          border-bottom-style: solid;
+          border-bottom-width: 2px;
+          border-bottom-color: gray;
+        }
+        .row-btn
+        {
+            text-align: center;
+        }
+        .login-btn
+        {
+            padding: 15px 90px;
+            border-radius: 25px;
+            background-color: #342056;
+            color: white;
+            border: 0;
+            justify-content: center;
+            font-weight: bolder;
+        }
+
+        .login-btn:hover {
+            background-color: #5454C5;
+        }
+ @media screen and (max-width: 1024px)
+{
+    .login-frame
+    {
+        width: 20em;
+    }
+}       

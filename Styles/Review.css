@@ -1,0 +1,170 @@
+﻿.review{
+    box-shadow: 1px 1px 20px 0 #D5D5D5;
+    width: 25rem;
+    height: 30rem;
+    border-radius: 25px;
+    margin: 45px auto 6em auto;
+    background-color: white;
+}
+.star-rate{
+    margin: 0 auto;
+    background-color: #F4F9F9;
+    width: 19rem;
+    border-radius: 10px;
+    text-align: right;
+    margin-top: 40px;
+}
+.stars input
+{
+    display: none;
+}
+.stars
+{
+    padding: 20px 0 20px 0;
+    text-align: center;
+}
+
+.stars label
+{
+    font-size: 20px;
+    color: #D3D3D3;
+    margin: 0 5px;
+    text-shadow: 1px 1px #bbb;
+    
+}
+.stars label:before
+{
+    content: '★';
+    
+}
+.stars input:checked ~ label
+{
+    color: #FFD700; 
+}
+
+.text{
+    font-weight: 200;
+    text-align: center;
+}
+h2
+{
+    padding-top: 30px;
+    text-align: center;
+    margin: 30px auto 0 auto;
+}
+.give-review
+{
+   display: grid;
+   text-align: center;
+   grid-template-rows: 33% 33% 33%;
+}
+.input
+        {
+          padding: 0 40px;
+          height: 40px;
+          font-size: 16px;
+          background: none;
+          border: none;
+          outline: none;
+          border-bottom-style: solid;
+          border-bottom-width: 2px;
+          border-bottom-color: gray;
+          color: Gray;
+            
+        }
+.review-btn
+        {
+            margin-top: 20px;
+            padding: 15px 90px;
+            border-radius: 25px;
+            background-color: #342056;
+            color: white;
+            border: 0;
+            justify-content: center;
+            font-weight: bolder;
+        }
+.review-btn:hover {
+            background-color: #5454C5;
+        }
+.row
+{
+    margin: 20px 0 5px 0;
+}
+.testimonials
+{
+    padding-top: 1em;
+    padding-bottom: 5em;
+    background-color: White;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.testimonial-box
+{
+    color: black;
+    box-shadow: 1px 1px 20px 0 #D5D5D5;
+    width: 28rem;
+    height: 18rem;
+    margin: 45px auto;
+    background-color: white;
+    display: grid;
+    grid-template-rows: 30% 70%;
+
+}
+h3
+{
+    text-align: center;
+}
+.user-name
+{
+    position: absolute;
+    padding-top: 35px;
+    padding-left: 20px;
+}
+.users-img
+{
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.user-stars
+{
+    float: right;
+    padding-top: 30px;
+    padding-right: 15px;
+}
+.testimonial-text
+{
+    padding-left: 20px;
+    text-align: left;
+}
+.testimonial-text p
+{
+    width: 90%;
+}
+
+
+@media screen and (max-width: 1024px)
+{
+    .avg-review
+    {
+       width: 23rem; 
+    }
+    .testimonials
+    {
+        grid-template-columns: 100%;
+    }
+    .testimonial-box
+    {
+        width: 23rem;
+        height: 25em;
+    }
+    .testimonial-text p
+    {
+        width: 85%;
+    }
+
+}

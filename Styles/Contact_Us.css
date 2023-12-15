@@ -1,0 +1,80 @@
+﻿.contact
+{
+    text-align: center;
+}
+h2
+{
+    font-size: xx-large;
+}
+.contact-us-txt
+{
+    line-height: 2;
+    width: 50%;
+    margin: auto;
+    font-size: large;
+    font-weight: 200;
+}
+p
+{
+    line-height: 1;
+}
+.contact-frame
+{
+    box-shadow: 1px 1px 20px 0 #D5D5D5;
+    margin: 5em auto 5em auto;
+    width: 30em;
+    height: 45em;
+    display: grid;
+    grid-template-rows: 80px 80px 80px 70px 70px 70px 110px 60px; 
+    text-align: center;
+}
+strong
+{
+    font-weight: 200;
+}
+.input
+{
+    padding: 0 40px;
+    height: 40px;
+    font-size: 16px;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: gray;
+    color: Gray;
+}
+.row
+    {
+        margin: 2.5em auto 1em auto;
+    }
+    .send-btn
+        {
+            padding: 15px 90px;
+            border-radius: 25px;
+            background-color: #342056;
+            color: white;
+            border: 0;
+            justify-content: center;
+            font-weight: bolder;
+        }
+
+        .send-btn:hover {
+            background-color: #5454C5;
+        }
+@media screen and (max-width: 1024px)
+{
+    .input
+        {
+          padding: 0 30px;
+          height: 30px;
+          font-size: 12px;
+            
+        }
+        .contact-frame
+        {
+            width: 20em;
+        }
+      
+}

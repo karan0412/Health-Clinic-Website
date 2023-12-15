@@ -1,0 +1,86 @@
+﻿.consult-frame {
+            box-shadow: 1px 1px 20px 0 #D5D5D5;
+            width: 45em;
+            height: 60em;
+            border-radius: 25px;
+            margin: 10em auto;
+            background-color: white;
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+            margin: 30px auto 0 auto;
+        }
+                h3
+         {
+             font-weight: 200;
+             font-size: x-large;
+         }
+         strong
+{
+    font-weight: 200;
+}
+
+        .create-online-appointment {
+            margin: 0 auto;
+            padding-bottom: 3em;
+            background-color: #F4F9F9;
+            width: 36em;
+            border-radius: 10px;
+            display: grid;
+            grid-template-rows: 100px 100px 100px;
+        }
+        .input
+        {
+          padding: 0 40px;
+          height: 40px;
+          font-size: 16px;
+          background: none;
+          border: none;
+          outline: none;
+          border-bottom-style: solid;
+          border-bottom-width: 2px;
+          border-bottom-color: gray;
+          color: Gray;
+            
+        }
+ 
+
+        .online-img {
+            height: 13em;
+            padding-top: 30px;
+        }
+        .online-btn
+        {
+            margin-top: 20px;
+            padding: 15px 90px;
+            border-radius: 25px;
+            background-color: #342056;
+            color: white;
+            border: 0;
+            justify-content: center;
+            font-weight: bolder;
+        }
+
+        .online-btn:hover {
+            background-color: #5454C5;
+        }
+        
+        
+@media screen and (max-width: 1024px)
+{
+    .consult-frame {
+            width: 22em;
+        }
+         .input
+        {
+          padding: 0 30px;
+          height: 30px;
+          font-size: 12px;
+            
+        }
+        .create-online-appointment {
+            width: 20em;
+        }
+}

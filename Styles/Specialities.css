@@ -1,0 +1,82 @@
+﻿/* Specialities */
+        .breadcrumb
+        {
+            background-color: white;
+            color: inherit;
+            line-height: 2;
+            padding: 10px 10px 10px 10px;
+            text-decoration: none;
+        }          
+       .heading
+        {
+           line-height:2;
+           text-align: center;
+           color:black;
+        }
+        
+       .img
+        {
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-bottom: 20px;
+            width: 150px;
+            height:100px;
+            float: left;
+         }
+        .doc-name
+        {
+            position: absolute;
+            padding-top: 50px;
+            padding-left: 20px;
+        }
+        .doctor
+        {
+            padding-top: 5em;
+            padding-bottom: 5em;
+            background-color: White;
+            display: grid;
+            grid-template-columns: 50% 50%;
+        }
+        .text
+        {
+            padding-top: 50px;
+            padding-left: 20px;
+            padding-right: 20px;
+            text-align: left;
+        }
+        .doctor-box
+        {
+            color: black;
+            box-shadow: 1px 1px 20px 0 #D5D5D5;
+            width: 28rem;
+            height: 18rem;
+            margin: 45px auto;
+            background-color: white;
+            display: grid;
+            grid-template-rows: 30% 70%;
+
+            }
+            .doctor-box1
+            {
+            color: black;
+            box-shadow: 1px 1px 20px 0 #D5D5D5;
+            width: 28rem;
+            height: 18rem;
+            margin: 45px 530px auto;
+            background-color: white;
+            display: grid;
+            grid-template-rows: 30% 70%;
+
+            }
+  @media screen and (max-width: 1024px)
+  {
+     .doctor
+        {
+            padding-top: 5em;
+            padding-bottom: 5em;
+            background-color: White;
+            display: grid;
+            grid-template-columns: 100%;
+        }       
+  }
+         

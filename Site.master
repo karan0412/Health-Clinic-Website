@@ -1,0 +1,66 @@
+﻿<%@ Master Language="VB" CodeFile="Site.master.vb" Inherits="Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
+<head runat="server">
+    <title>Excel Health Clinic</title>
+    
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet" />
+    <link href="Styles/Style.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/703ce498ac.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="images/favicon.ico">
+   
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <nav class="top-nav">
+
+    <section>
+     <asp:HyperLink ID="home" runat="server" CssClass="header-link-home" NavigateUrl="~/home.aspx"><asp:Image ID="Image1" runat="server" CssClass="logo-head" ImageUrl="~/images/head-logo.jpeg"></asp:Image></asp:HyperLink>
+    </section>
+    <ul class="login-n-search">
+        <li><asp:HyperLink style="float: right;" ID="HyperLink1" runat="server" CssClass="login" NavigateUrl="~/Login.aspx">Login</asp:HyperLink></li>
+         <li><asp:TextBox ID="TextBox1" runat="server"  CssClass="search" placeholder="Search..." TextMode="Search"></asp:TextBox></li>
+    </ul>
+    
+     
+     
+    <input id="hamburger-menu-toggle" type="checkbox" />
+    <label class="hamburger-menu-button-container" for="hamburger-menu-toggle">
+  
+    <section class="hamburger-menu-button"></section>
+    </label>
+   
+    <ul class="hamburger-menu">
+      <li><asp:HyperLink ID="int_patient" runat="server" CssClass="header-link" NavigateUrl="~/International_Patient.aspx">International Patient</asp:HyperLink></li>
+                <li><asp:HyperLink ID="book" runat="server" CssClass="header-link" NavigateUrl="~/Create_Appointment.aspx">Book Appointment</asp:HyperLink></li>
+                <li><asp:HyperLink ID="review" runat="server" CssClass="header-link" NavigateUrl="~/Review.aspx">Reviews</asp:HyperLink></li>
+                <li><asp:HyperLink ID="contact" runat="server" CssClass="header-link" NavigateUrl="~/Contact_Us.aspx">Contact Us</asp:HyperLink></li>
+                <li><asp:HyperLink ID="blog" runat="server" CssClass="header-link" NavigateUrl="~/Blog.aspx">Blog</asp:HyperLink></li>
+                <li><asp:HyperLink ID="our_team" runat="server" CssClass="header-link" NavigateUrl="~/Our_Team.aspx">Our Team</asp:HyperLink></li>
+    </ul>
+    
+  </nav>
+
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+       <footer>
+        <a class="contact-icon fa-brands fa-twitter" href=""></a>
+        <a class="contact-icon fa-brands fa-facebook-f" href=""></a>
+        <a class="contact-icon fa-brands fa-instagram" href=""></a>
+        <a class="contact-icon fa-solid fa-envelope" href=""></a>
+        <p>© Copyright 2022 Excel Health Clinic</p>
+    </footer>
+    </form>
+</body>
+</html>

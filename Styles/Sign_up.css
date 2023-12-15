@@ -1,0 +1,80 @@
+﻿/* Sign-up */
+
+   
+        .signup-frame
+        {
+            box-shadow: 1px 1px 20px 0 #D5D5D5;
+            margin: 4em auto 5em auto;
+            width: 40em;
+            height: 45em;
+            display: grid;
+            grid-template-rows: 30px 60px 60px 70px 40px 80px 100px 140px 60px 70px; 
+            text-align: center;
+        }
+        p
+        {
+            color: Gray;
+            font-size: larger;
+        }
+            .input
+        {
+          padding: 0 40px;
+          height: 40px;
+          font-size: 16px;
+          background: none;
+          border: none;
+          outline: none;
+          border-bottom-style: solid;
+          border-bottom-width: 2px;
+          border-bottom-color: gray;
+          color: Gray;
+        }
+        .row
+        {
+            margin: 2.5em auto 1em auto;
+        }
+        .gender-choice
+        {
+            float: right;
+        }
+        .signup-btn
+        {
+            padding: 15px 90px;
+            border-radius: 25px;
+            background-color: #342056;
+            color: white;
+            border: 0;
+            justify-content: center;
+            font-weight: bolder;
+        }
+
+        .signup-btn:hover {
+            background-color: #5454C5;
+        }
+        
+        .account-exist
+        {
+            text-decoration: none;
+            color: Gray;
+        }
+        .account-exist:hover
+        {
+            text-decoration: underline;
+        }
+        
+ @media screen and (max-width: 1024px)
+{
+    .signup-frame {
+            width: 22em;
+        }
+         .input
+        {
+          padding: 0 30px;
+          height: 30px;
+          font-size: 12px;
+            
+        }
+}     
+        
+        
+   
